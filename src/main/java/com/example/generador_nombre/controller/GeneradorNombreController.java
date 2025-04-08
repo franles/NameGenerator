@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/nombres")  // <-- CORREGIDO
+@RequestMapping("/api/nombres")  
 @CrossOrigin(origins = "*") //permite que el front acceda al back
 public class GeneradorNombreController {
     
